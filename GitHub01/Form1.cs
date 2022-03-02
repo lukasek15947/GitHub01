@@ -26,6 +26,9 @@ namespace GitHub01
 
             int soucin = a * b;
             MessageBox.Show("Součin dvou čísel je: " + soucin);
+
+            int rozdil = a - b;
+            MessageBox.Show("Rozdíl dvou čísel je: " + rozdil);
         }
     }
 }
