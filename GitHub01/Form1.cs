@@ -29,6 +29,9 @@ namespace GitHub01
 
             int rozdil = a - b;
             MessageBox.Show("Rozdíl dvou čísel je: " + rozdil);
+
+            double podil = (double)a / b;
+            MessageBox.Show("Podíl dvou čísel je: " + podil);
         }
     }
 }
