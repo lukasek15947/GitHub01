@@ -23,6 +23,9 @@ namespace GitHub01
             int b = int.Parse(textBox2.Text);
             int soucet = a + b;
             MessageBox.Show("Součet dvou čísel je: " + soucet);
+
+            int soucin = a * b;
+            MessageBox.Show("Součin dvou čísel je: " + soucin);
         }
     }
 }
